@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./estilos/estilos.css">
+  <title>Test Maquetador</title>
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <!-- Aquí están las 3 imágenes superiores -->
+    <div class="index-div-principal">
+      <div class="index-div-superior">
+        <img class="div-principal-img" src="./imagenes/decks-de-pvc.jpg" alt="Imagen Decks de PVC">
+        <img class="div-principal-img" src="./imagenes/zocalos-de-pvc.jpg" alt="Imagen Zocalos de PVC">
+        <img class="div-principal-img" src="./imagenes/cielos-de-pvc.jpg" alt="IMagen Cielos y Revestimientos de PVC">
+      </div>
+
+      <div class="index-div-inferior">
+
+        <!-- Aquí está la imagen inferior izquiera -->
+        <div>
+          <img class="div-inferior-img" src="./imagenes/producto.jpg" alt="Producto">
+        </div>
+
+        <!-- Aquí está la oferta y el Carrusel -->
+        <div class="d-flex flex-column div-carrusel">
+          <p class="index-oferta">CONSTRUCCIÓN EN SECO <b>HASTA 50% OFF</b></p>
+          
+          <!-- Aquí está el Carrusel -->
+          <!-- Slide 1 -->
+          <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center align-items-start div-cards-contenedor">
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 1.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 2.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 3.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 4.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center div-cards-contenedor">
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 5.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 6.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 7.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                  <div class="d-flex flex-column justify-content-center align-items-center card-carousel">
+                    <p class="card-destacado">DESTACADO</p>
+                    <img src="./imagenes/producto.jpg" class="carousel-img" alt="...">
+                    <p class="d-inline text-center">Descripción del producto 8.</p>
+                    <div class="d-flex justify-content-center align-items-center div-cantidad">
+                      <p class="card-cantidad">Cantidad</p>
+                      <input class="card-input" type="number" min="1" placeholder="1" />
+                    </div>
+                    <button type="button" class="btn btn-danger card-button">AGREGAR AL PRESUPUESTO</button>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon me-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon ms-2" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+  </main>
+
+  <!-- Links de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
